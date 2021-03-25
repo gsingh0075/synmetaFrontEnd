@@ -30,9 +30,9 @@
         <div class="container-fluid nav-header-container">
             <div class="col-6 col-lg-2 mr-auto pl-lg-0">
                 <a class="navbar-brand" href="/">
-                    <img src="<?php echo base_url('assets/synMetaImages/Logo.png')?>" data-at2x="images/logo-gradient-sky-blue-pink@2x.png" class="default-logo" alt="">
-                    <img src="<?php echo base_url('assets/synMetaImages/Logo.png')?>" data-at2x="images/logo-black@2x.png" class="alt-logo" alt="">
-                    <img src="<?php echo base_url('assets/synMetaImages/Logo.png')?>" data-at2x="images/logo-gradient-sky-blue-pink@2x.png" class="mobile-logo" alt="">
+                    <img src="<?php echo base_url('assets/synMetaImages/Logo.png')?>" data-at2x="<?php echo base_url('assets/synMetaImages/Logo.png')?>" class="default-logo" alt="">
+                    <img src="<?php echo base_url('assets/synMetaImages/Logo.png')?>" data-at2x="<?php echo base_url('assets/synMetaImages/Logo.png')?>" class="alt-logo" alt="">
+                    <img src="<?php echo base_url('assets/synMetaImages/Logo.png')?>" data-at2x="<?php echo base_url('assets/synMetaImages/Logo.png')?>" class="mobile-logo" alt="">
                 </a>
             </div>
             <div class="col-auto menu-order px-lg-0">
@@ -47,7 +47,7 @@
                         <?php if(isset($menu) && !empty($menu)) : ?>
                             <?php foreach( $menu as $m): ?>
                                     <li class="nav-item dropdown <?php if(isset($m['child'])): ?> simple-dropdown <?php endif ?>">
-                                        <a href="#" class="nav-link"><?php echo $m['name'] ?></a>
+                                        <a href="<?php echo $m['link']; ?>" class="nav-link"><?php echo $m['name'] ?></a>
                                         <?php if(isset($m['child'])): ?>
                                            <i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         <?php endif ?>
@@ -55,7 +55,7 @@
                                             <ul class="dropdown-menu" role="menu">
                                                <?php foreach($m['child'] as $child) : ?>
                                                 <li class="dropdown">
-                                                    <a href=""><?php echo $child['name'] ?></a>
+                                                    <a href="<?php echo $child['link'] ?>"><?php echo $child['name'] ?></a>
                                                 </li>
                                                <?php endforeach ?>
                                             </ul>
