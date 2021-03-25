@@ -13,6 +13,7 @@
                      <div class="feature-box-content last-paragraph-no-margin">
                          <span class="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray"><?php echo $ser['name'] ?></span>
                          <p><?php echo $ser['s_desc'] ?></p>
+                         <p><a href="<?php echo $ser['link'] ?>" class="btn btn-fancy btn-medium btn-gradient-sky-blue-pink margin-30px-right xs-margin-15px-bottom">Read more</a></p>
                      </div>
                  </div>
              </div>

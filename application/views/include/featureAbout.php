@@ -8,7 +8,7 @@
                 </div>
                 <h5 class="alt-font text-extra-dark-gray font-weight-600 margin-20px-bottom md-margin-30px-bottom xs-w-90 mx-auto mx-sm-0">We combine design, thinking and technical</h5>
                 <div class="mt-auto mx-auto mx-lg-0">
-                    <a href="#" class="btn btn-fancy btn-small btn-transparent-light-gray">Read More</a>
+                    <a href="/about-us" class="btn btn-fancy btn-small btn-transparent-light-gray">Read More</a>
                 </div>
             </div>
             <div class="col-12 col-xl-7 offset-xl-2 col-lg-8 last-paragraph-no-margin wow animate__fadeIn" data-wow-duration="0.3">

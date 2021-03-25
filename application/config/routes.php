@@ -51,5 +51,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'home';
 $route['about-us'] = 'home/about';
-$route['404_override'] = '';
+$route['services'] = 'home/services';
+$route['services/(:any)'] = 'home/service/$1';
+$route['industries'] = 'home/industries';
+$route['testimonials'] = 'home/testimonials';
+$route['careers'] = 'home/careers';
+$route['contact'] = 'home/contact';
+$route['sendContact'] = '/home/sendContact';
+$route['404_override'] = 'home/not_found';
 $route['translate_uri_dashes'] = FALSE;

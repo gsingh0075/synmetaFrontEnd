@@ -10,10 +10,10 @@
     <meta name="keywords" content="<?php echo $meta_keywords; ?>">
     <meta name="author" content="<?php echo $author; ?>">
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.png'); ?>">
-    <link rel="apple-touch-icon" href="<?php echo base_url('assets/images/apple-touch-icon-57x57.png'); ?>">
-    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url('assets/images/apple-touch-icon-72x72.png'); ?>">
-    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url('assets/images/apple-touch-icon-114x114.png');?>">
+    <link rel="shortcut icon" href="<?php echo base_url('assets/synMetaImages/favicon.png'); ?>">
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets/synMetaImages/apple-touch-icon.png'); ?>">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url('assets/synMetaImages/apple-touch-icon.png'); ?>">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url('assets/synMetaImages/apple-touch-icon.png');?>">
     <!-- style sheets and font icons  -->
     <?php foreach ($stylesheets as $stylesheet): ?>
         <link rel="stylesheet" href="<?php echo $stylesheet; ?>">
